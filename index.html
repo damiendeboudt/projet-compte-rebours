@@ -2,25 +2,28 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>projet compte à rebours</title>
+    <title>compte-a-rebours</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
+
 </head>
 <body>
-
-<div>
-    <label for="timer-Minutes">Minutes:</label>
-    <input id="timer-Minutes" type="number" placeholder="minutes">
-    <label for="timer-Seconds">Seconds:</label>
-    <input id="timer-Seconds" type="number" placeholder="secondes">
-    <button id="start">Start</button>
-    <button id="stop">Stop</button>
-    <button id="reset">Reset</button>
+<div id="container">
+    <label for="Minutes"></label>
+    <input id="Minutes" type="text" placeholder="Minutes">
+    <label for="Seconds"></label>
+    <input id="Seconds" type="text" placeholder="Secondes">
 </div>
 
-<div id="compte-à-rebours"></div>
+<button id="LancerCRB">Submit</button>
 
+<div id="container2">
+
+    <div id="M"></div>
+    <span>:</span>
+    <div id="S"></div>
+</div>
 
 <script src="script.js"></script>
 </body>

@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin: 2rem;
+    padding-left: 1rem;
+}
+#container2{
+    width: 180px ;
+    display: flex;
+    justify-content: space-between;
+}
+#H, #M, #S {
+    width: 80px;
+    height: 120px;
+    border: 1px solid black;
+    font-size: 5rem;
+}
+span{
+    font-size: 5rem;
+}
